@@ -1,0 +1,24 @@
+Read on .md files and how to format them
+
+-HTML - Content/Presentation
+-CSS - Appearance/styling
+-JS - Behavior
+
+Styles Precedence/Priority
+1. Inline Style (highest Priority)
+2. Embedded Style Sheet
+3. Imported Style Sheet(lowest)
+
+class attribute: same class can be used on multiple elements to share the same style
+id attribute: specific to an element within the whole html. used to uniquely identify an element
+
+BOX MODEL
+-Padding: space between border and content inside an element
+-Margin: space between the element and the neighboring elements.
+-Border: between margin and padding;
+
+
+TODO:
+website,image name of school
+image height 150px,width 100px
+css selectors...nth child

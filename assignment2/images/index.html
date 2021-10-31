@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+    <!--document type is HTML5-->
+    <html lang="en">
+    <!--wraps all content-->
+
+    <head>
+        <!--content not to show to visitors-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="/images/download.jpg" class="logo" alt="kenyatta university logo">
+                <p id="school-name" class="university">kenyatta university</p>
+            </div>
+        </div>
+        <div class="banner-image">
+            <img src="/images/logo2.jpg" class="banner" alt="banner image">
+        </div>
+        <div class="welcome">
+            <h1 class="welcome">welcome! please fill form to enroll</h1>
+            <p class="karibu">registration form</p>
+        </div>
+
+        <form class="myform">
+            <div class="form-group">
+                <label class="cert">Name:</label>
+                <input type="text" name="name">
+            </div>
+            <div class="form-group">
+                <label class="cert">Email:</label>
+                <input type="text" name="email">
+            </div>
+            <div class="form-group">
+                <label class="cert">phone/mobile no:</label>
+                <input type="text" name="phone/mobile no">
+            </div>
+            <div>
+                <p class="cert">Date Of Birth:</p>
+                <input type="date">
+            </div>
+            <!-- <form class="county"> -->
+            <p class="cert">County:</p>
+            <select name="County">
+                <option value="Nairobi">Nairobi</option>
+                <option value="Nakuru">Nakuru</option>
+                <option value="Narok">Narok</option>
+                <option value="Kakamega">Kakamega</option>
+                <option value="Kisumu">Kisumu</option>
+                <option value="Mombasa">Mombasa</option>
+                <option value="Kitui">Kitui</option>
+                <option value="Bungoma">Bungoma</option>
+                <option value="Vihiga">Vihiga</option>
+                <option value="Nandi">Nandi</option>
+                <option value="Nyeri">Nyeri</option>
+            </select>
+            <!-- </form> -->
+</div>
+</form>
+<p class="cert">Gender:</p>
+<label class="menu">
+    <input type="radio" name="Male">Male
+</label>
+
+<label>
+    <input type="radio" name="Female">Female
+</label>
+
+<div class="menu">
+    <p class="cert">Favourite Menu:</p>
+    <input type="checkbox" name="Vegeterian">Vegeterian</input>
+    <input type="checkbox" name="Winer">Winer</input>
+</div>
+<div class="menu">
+    <input type="checkbox" name="Cofee Maniac">Coffe Maniac
+    <input type="checkbox" name="Allergic">Allergic
+</div>
+<div>
+    <p class="cert">Birthcertificate</p>
+    <input type="file" name="Birthcirtificate">
+</div>
+<div class="group">
+    <label class="cert">Comments</label>
+    <textarea name="Comments"></textarea>
+</div>
+<div>
+    <input class="button" type="submit" value="submit" name="">
+</div>
+</body>
+
+</html>
